@@ -1,5 +1,9 @@
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #004d40; /* deep green background */
 }
 
 .App-logo {
@@ -35,4 +39,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.closeButton {
+  background-color: darkblue; /* Dark blue background */
+  color: white; /* White text color */
+  padding: 10px 20px; /* Padding around the text */
+  border: none; /* Remove the default border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Change cursor to pointer when hovering over the button */
+  font-size: 16px; /* Increase font size */
+  font-weight: bold; /* Bold text */
+  position: fixed; /* Positioning at the bottom */
+  bottom: 10px; /* 10px from the bottom */
+  width: calc(100% - 20px); /* Full width with 10px padding on either side */
+  left: 10px; /* 10px from the left side */
+}
+
+.closeButton:hover {
+  background-color: navy; /* Change background color when hovering over the button */
 }
