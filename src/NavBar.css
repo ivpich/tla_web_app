@@ -1,0 +1,17 @@
+/* NavBar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #0b0c10;
+    padding: 20px 0;
+}
+
+.nav-link {
+    color: #66fcf1;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #45a29e;
+}

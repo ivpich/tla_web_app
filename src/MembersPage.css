@@ -1,0 +1,43 @@
+/* MembersPage.css */
+
+.members-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    color: #66fcf1;
+}
+
+.member-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #45a29e;
+    border-radius: 15px;
+    background-color: #1f2833;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #45a29e;
+}
+
+.name {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #66fcf1;
+}
+
+.title {
+    font-size: 18px;
+    color: #c5c6c7;
+}
+
+Link {
+    text-decoration: none;
+    color: inherit;
+}

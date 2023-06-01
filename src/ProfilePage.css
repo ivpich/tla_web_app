@@ -1,0 +1,72 @@
+body {
+    background: linear-gradient(to right, #0b0c10, #1f2833);
+    color: #66fcf1;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border: 2px solid #45a29e;
+    border-radius: 15px;
+    background-color: #1f2833;
+    margin: 50px;
+}
+
+.left-side {
+    flex: 1;
+    text-align: center;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #45a29e;
+}
+
+.title {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.status-bar {
+    width: 100px;
+    height: 20px;
+    background-color: #0b0c10;
+    margin: 20px auto;
+    position: relative;
+    border: 2px solid #45a29e;
+}
+
+.fill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #45a29e;
+}
+
+.points {
+    font-size: 18px;
+}
+
+.right-side {
+    flex: 2;
+}
+
+.name {
+    font-size: 36px;
+}
+
+.professional-title {
+    font-size: 24px;
+    color: #c5c6c7;
+}
+
+.bio {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+}

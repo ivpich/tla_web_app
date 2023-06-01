@@ -1,0 +1,28 @@
+/* MainPage.css */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: #66fcf1;
+    background: linear-gradient(180deg, #0b0c10 0%, #1f2833 100%);
+}
+
+.main-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.main-subtitle {
+    font-size: 28px;
+    margin: 20px 0;
+}
+
+.main-text {
+    max-width: 800px;
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 18px;
+    color: #c5c6c7;
+}
